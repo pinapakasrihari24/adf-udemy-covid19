@@ -1,0 +1,19 @@
+{
+	"name": "ds_sample_json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_blob_config",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "ecdc-file-list-2.json",
+				"container": "config"
+			}
+		},
+		"schema": {}
+	}
+}
