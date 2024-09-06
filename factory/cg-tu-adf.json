@@ -1,0 +1,9 @@
+{
+	"name": "cg-tu-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f65f9a2f-1f56-40ea-81f7-4298e6bd4a3c",
+		"tenantId": "84f1e4ea-8554-43e1-8709-f0b8589ea118"
+	}
+}
